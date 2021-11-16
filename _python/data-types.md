@@ -158,7 +158,7 @@ In [1]: [x ** 2 for x in range(5) if condition]
 Out[1]: [0, 1, 4, 9, 16]
 
 # Set comprehension.
-In [2]: set(x ** 2 for x in range(5) if condition)
+In [2]: {x ** 2 for x in range(5) if condition}
 Out[2]: {0, 1, 4, 9, 16}
 
 # Dict comprehension.
